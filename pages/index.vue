@@ -1,0 +1,11 @@
+<template>
+    <div>
+        <HeadNavbar/>
+       <BodyDon-lekside/> 
+       <BodyAbout/>
+       <BodySkill/>
+       <BodyExperience/>
+       <BodyWork/>
+       <BodyGetInTouch/>
+    </div>
+</template>
