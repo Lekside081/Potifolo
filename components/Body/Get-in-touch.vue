@@ -1,20 +1,20 @@
 <template>
     <div class="py-8">
         <div id="Contact" class="flex justify-center">
-            <div class="basis-30 bg-gray-200 rounded-2xl text-center">Get in touch</div>
+            <div class="basis-30 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Get in touch</div>
         </div>
         <p class="text-center text-2xl mt-2">What's next? Feel free to reach out to me if you are looking</p>
         <p class="text-center text-2xl">for a developer, have a query, or simply want to connect.</p>
         <div class="flex flex-col md:flex-row justify-center space-x-2 mt-10">
-            <div>
+            <div class="flex justify-center">
                 <svg class="w-[34px] h-[34px] text-gray-800 dark:text-white" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
                         d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
                 </svg>
             </div>
-            <div class="text-3xl font-bold">Lawalholamilekan@gmail.com</div>
-            <div>
+            <div class="text-3xl font-bold text-center">Lawalholamilekan@gmail.com</div>
+            <div class="hidden md:block">
                 <svg class="w-[36px] h-[36px] text-gray-800 dark:text-white" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd"
@@ -95,7 +95,9 @@
                 </div>
             </NuxtLink>
         </div>
-        <div class="text-center mt-24">2025 | Designed by Shagar and Coded with ❤️️ by Lawal Olalekan -
-            Don-Lekside-Codes</div>
+        <div class="text-center mt-24 hidden md:block">2025 | Designed by Shagar and Coded with ❤️️ by Lawal Olalekan
+            [Don-Lekside-Codes]</div>
+        <div class="block md:hidden text-center">2025 | Designed by Shagar and Coded with ❤️️ by Lawal</div>
+        <div class="block md:hidden text-center"> Olalekan  [Don-Lekside-Codes]</div>
     </div>
 </template>

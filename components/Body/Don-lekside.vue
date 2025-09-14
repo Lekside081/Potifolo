@@ -1,11 +1,12 @@
 <template>
     <div id="Testimonials" class="flex flex-col md:flex-row justify-between px-12 mt-60">
         <div>
-            <p class="text-5xl font-bold text-black">Hi, I'm Don-Lekside 👋</p>
-            <p class="mt-2">Front-end developer passionate about creating beautiful, responsive and user-friendly
-            </p>
-            <p>interfaces.</p>
-            <div class="flex space-x-2 mt-4">
+            <p class="text-5xl font-bold hidden md:block">Hi, I'm Don-Lekside 👋</p>
+            <p class="block md:hidden text-5xl text-center font-bold">Hi, I'm <br/> Don-Lekside 👋</p>
+            <p class="mt-2 hidden md:block">Front-end developer passionate about creating beautiful, responsive and user-friendly </p>
+            <p class="mt-2 block md:hidden">Front-end developer passionate about creating beautiful, responsive and user-friendly interfaces.</p>
+            <p class="hidden md:block">interfaces.</p>
+            <div class="flex space-x-2 mt-4 justify-center md:justify-start">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -17,7 +18,7 @@
                 </div>
                 <p>Osun, Nigeria</p>
             </div>
-            <div class="flex space-x-2 mt-2">
+            <div class="flex space-x-2 mt-2  justify-center md:justify-start">
                 <div class="mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15" viewBox="0 0 48 48">
                         <path fill="#4caf50" d="M44,24c0,11-9,20-20,20S4,35,4,24S13,4,24,4S44,13,44,24z"></path>
@@ -25,7 +26,7 @@
                 </div>
                 <p>Available for new projects</p>
             </div>
-            <div class="flex space-x-2 mt-10">
+            <div class="flex space-x-2 mt-10 justify-center md:justify-start">
                 <NuxtLink to="https://m.facebook.com/lawal.olamilekan.921/">
                     <div>
                         <svg class="w-[32px] h-[32px] text-gray-800 dark:text-white" aria-hidden="true"
@@ -73,9 +74,11 @@
                 </NuxtLink>
             </div>
         </div>
+        <div class="flex justify-center">
         <div class="w-60 mt-4">
             <div class="">
                 <img src="/public/imag/lekside.jpg">
+            </div>
             </div>
         </div>
     </div>
