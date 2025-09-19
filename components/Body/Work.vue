@@ -3,7 +3,7 @@
         <div id="Work" class="flex justify-center">
             <div class="basis-18 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Work</div>
         </div>
-        <p class="text-center text-2xl mt-2">Some of the noteworthy projects I have built:</p>
+        <p class="text-center text-2xl mt-2 text-blue-800 md:text-black">Some of the noteworthy projects I have built:</p>
         <div class="flex flex-col md:flex-row justify-center mt-8 ml-10 md:ml-0">
             <div class="w-[90%] border-2 border-gray-300 rounded-2xl">
                 <div class="flex flex-col md:flex-row">
@@ -16,15 +16,14 @@
                         <div class="ml-14 mt-5">
                             <h class="font-bold text-2xl">Don-Lekside</h>
                             <p class="mt-4">A platform for Staking money and increasing dailly</p>
-                            <div class="flex space-x-3 mt-4 text-green-950 font-bold">
+                            <div class="flex flex-wrap space-x-3 space-y-2 mt-4 text-green-950 font-bold">
                                 <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vue</div>
                                 <div class="basis-30 bg-gray-300 rounded-2xl text-center">JavaScript</div>
                                 <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vercel</div>
-                                <div class="basis-30 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
-                            </div>
-                            <div class="flex space-x-3 mt-2 text-green-900 font-bold">
-                                <div class="basis-24 bg-gray-300 rounded-2xl text-center">Node.Js</div>
-                                <div class="basis-40 bg-gray-300 rounded-2xl text-center">Styled Components</div>
+                                <div class="basis-30 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
+                            
+                                <div class="basis-24 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Node.Js</div>
+                                <div class="basis-40 mt-2 bg-gray-300 rounded-2xl text-center">Styled Components</div>
                             </div>
                             <div class="mt-8">
                                 <NuxtLink to="https://donlekside-apkwa99m5-lawal-sodiq-olalekans-projects.vercel.app/">
@@ -53,13 +52,12 @@
                             <h class="font-bold text-2xl">Niflare.com</h>
                             <p class="mt-4">A platform for teaching people how to transform your idea to reality</p>
                             <p class="">Through technologies</p>
-                            <div class="flex space-x-3 mt-4 text-green-900 font-bold">
+                            <div class="flex flex-wrap space-x-3 space-y-2 mt-4 text-green-900 font-bold">
                                 <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vue</div>
                                 <div class="basis-30 bg-gray-300 rounded-2xl text-center">JavaScript</div>
                                 <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vercel</div>
                                 <div class="basis-30 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
-                            </div>
-                            <div class="flex space-x-3 mt-2 text-green-900 font-bold">
+                        
                                 <div class="basis-24 bg-gray-300 rounded-2xl text-center">Node.Js</div>
                                 <div class="basis-40 bg-gray-300 rounded-2xl text-center">Styled Components</div>
                             </div>

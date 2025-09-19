@@ -1,6 +1,6 @@
 <template>
-    <div id="Testimonials" class="flex flex-col md:flex-row justify-between px-12 mt-60">
-        <div>
+    <div id="Testimonials" class="flex flex-col md:flex-row justify-between px-12 mt-40 md:mt-60">
+        <div class="text-teal-400 md:text-black">
             <p class="text-5xl font-bold hidden md:block">Hi, I'm Don-Lekside 👋</p>
             <p class="block md:hidden text-5xl text-center font-bold">Hi, I'm <br/> Don-Lekside 👋</p>
             <p class="mt-2 hidden md:block">Front-end developer passionate about creating beautiful, responsive and user-friendly </p>

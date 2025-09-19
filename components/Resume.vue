@@ -1,22 +1,26 @@
 <template>
     <div class="flex justify-center">
-        <div class="bg-black w-[80%] px-20">
+        <div class="bg-black md:w-[80%] px-20">
             <div class="flex flex-col md:flex-row bg-white">
                 <div class="basis-1/6">
 
                     <div class="grid grid-cols-12 h-50">
-                        <div class="col-span-5 bg-gray-800"></div>
+                        <div class="col-span-5 md:bg-gray-800"></div>
                         <div class="col-span-7 bg-white relative">
-                            <div class="absolute right-10 top-12 w-57 h-57 bg-black rounded-full border-8 border-white">
+                            <div class="absolute right-12  md:right-10 top-12 w-57 h-57 rounded-full border-4 md:border-8 border-white">
+                                
+                <img src="/public/imag/lekside.jpg" class="w-57 h-57 rounded-full">
+            
                             </div>
-                            <div class="pt-16 pl-36 text-red-400 text-3xl sm:text-6xl font-extrabold sm:text-gray-600">
+                            <div class="hidden md:block pt-16 pl-36 text-red-400 text-3xl sm:text-6xl font-extrabold sm:text-gray-600">
                                 LAWAL
                                 <p class="sm:text-6xl ml-24 font-extrabold">OLALEKAN</p>
                               </div>
                         </div>
                     </div>
                     <div class="text-center mt-24">
-                        <h2 class="text-2xl font-bold">About Me</h2>
+                        <div class="block md:hidden text-3xl font-bold text-gray-500"> <p class="mr-28">Lawal</p> <p class="ml-1">Olalekan</p></div>
+                        <h2 class="text-2xl font-bold mt-5 md:mt-0">About Me</h2>
                         <p class="mt-3 px-8 text-center">
                             A self-taught <span class="font-semibold">Front-End</span> developer with 1+ years
                             in web and mobile development.
@@ -44,8 +48,9 @@
                                         d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
                                 </svg>
                             </div>
-                            <span class="ml-3">Lawalholamilekan@gmail.com</span>
+                            <span class="ml-3 ">Lawalholamilekan@gmail.com</span>
                         </div>
+                        
                         <div class="flex items-center">
                             <div class="">
                                 <svg class="w-[40px] h-[40px] bg-black rounded-full text-white py-1 dark:text-white"
@@ -102,39 +107,39 @@
                 </div>
                 <div class="basis-10/12">
                     <div class="flex flex-col md:flex-row justify-between">
-                        <div class="space-y-3 mt-32">
+                        <div class="space-y-3 md:mt-32">
                             <di class="text-6xl font-bold ml-15"> </di>
                         </div>
-                        <div class="w-20 h-40 -ml-12 bg-gray-300 rounded-l-full"></div>
+                        <div class="w-20 md:h-40 -ml-12 md:bg-gray-300 rounded-l-full"></div>
                     </div>
-                    <div class="text-xl ml-20 text-gray-900">Front-End Enginer</div>
+                    <div class="text-xl ml-20 font-bold md:font-normal text-gray-900">Front-End Enginer</div>
                     <div class="flex ml-10 mt-10">
-                        <div class="basis-80 bg-gray-900 py-1 text-center text-white">EXPERIENCE</div>
+                        <div class="md:w-[300px] w-[200px] bg-gray-900 py-1 text-center text-white">EXPERIENCE</div>
                     </div>
                     <div class="ml-10 mt-2">
                         <p class="font-bold">Niflare Tech</p>
                         <p class="font-bold">Osun, Nigeria</p>
                         <p class="font-bold">Janury 2024 - current</p>
                         <p>Develop and maintain web and mobile applications</p>
-                        <p>remotely using JavaScript, Python, Node.js, Vue, and</p>
-                        <p>Nuxt.js, delivering high-quality systems and user-focused solutions.</p>
+                        <p>remotely using JavaScript, Python, Node.js, Vue, React and</p>
+                        <p>Nuxt.js, Next.js delivering high-quality systems and user-focused solutions.</p>
                     </div>
 
                     <div class="flex mt-4 ml-10">
-                        <div class="basis-80 bg-gray-900 text-center py-1 text-white">EDUCATION</div>
+                        <div class="md:w-[300px] w-[200px] bg-gray-900 text-center py-1 text-white">EDUCATION</div>
                     </div>
-                    <p class="mt-2 ml-10 font-bold">Iree Polthecnic, Osun State</p>
+                    <p class="mt-2 ml-10 font-bold">Iree Polytechnic, Osun State</p>
                     <p class="ml-10">Bachelor of Science Computer Science</p>
-                    <p class="ml-10">2024-2025</p>
+                    <p class="ml-10">2019-2021</p>
                     <p class="mt-2 font-bold ml-10">Agaagunlase Comunity High School</p>
                     <p class="ml-10">WASSCE</p>
                     <p class="ml-10">2005-2011</p>
                     <div class="flex mt-4 ml-10">
-                        <div class="basis-80 bg-gray-900 text-center py-1 text-white">SKILLS SUMMARY</div>
+                        <div class="md:w-[300px] w-[200px] bg-gray-900 text-center py-1 text-white">SKILLS SUMMARY</div>
                     </div>
                     <p class="mt-2 ml-10">Frontend Development 90%</p>
                     <div class="flex justify-end">
-                        <div class="w-24 h-45 mt-45 bg-gray-300 rounded-l-full"></div>
+                        <div class="w-24 h-45 md:mt-45 bg-gray-300 rounded-l-full"></div>
                     </div>
                 </div>
             </div>

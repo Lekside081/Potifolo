@@ -3,7 +3,7 @@
         <div id="About me" class="flex justify-center">
             <div class="basis-30 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Experience</div>
         </div>
-        <p class="text-center text-2xl mt-2">Here is a quick summary of my most recent experiences:</p>
+        <p class="text-center text-2xl mt-2 text-blue-800 md:text-black">Here is a quick summary of my most recent experiences:</p>
         <div class="flex flex-col md:flex-row justify-center mt-8">
             <div class="basis-7/10 bg-white border border-gray-300 rounded-3xl py-6">
 

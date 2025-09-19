@@ -3,7 +3,7 @@
         <div id="About me" class="flex justify-center">
             <div class="basis-18 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Skills</div>
         </div>
-        <p class="text-center text-2xl mt-2">The skills, tools and technologies I am really good at:</p>
+        <p class="text-center text-2xl mt-2 text-blue-800 md:text-black">The skills, tools and technologies I am really good at:</p>
         <div class="flex flex-col md:flex-row ml-14 space-x-40 mt-14">
             <div class="flex justify-center ml-24 md:ml-0">
             <div class="mb-12 md:mb-0">

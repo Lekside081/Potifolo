@@ -3,8 +3,10 @@
         <div id="Contact" class="flex justify-center">
             <div class="basis-30 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Get in touch</div>
         </div>
+        <div class="text-blue-800 md:textblack">
         <p class="text-center text-2xl mt-2">What's next? Feel free to reach out to me if you are looking</p>
         <p class="text-center text-2xl">for a developer, have a query, or simply want to connect.</p>
+        </div>
         <div class="flex flex-col md:flex-row justify-center space-x-2 mt-10">
             <div class="flex justify-center">
                 <svg class="w-[34px] h-[34px] text-gray-800 dark:text-white" aria-hidden="true"
