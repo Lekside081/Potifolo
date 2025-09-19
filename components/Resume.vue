@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center">
+    <div class="flex justify-center overflow-x-hidden">
         <div class="bg-black md:w-[80%] px-20">
             <div class="flex flex-col md:flex-row bg-white">
                 <div class="basis-1/6">
@@ -20,14 +20,14 @@
                     </div>
                     <div class="text-center mt-24">
                         <div class="block md:hidden text-3xl font-bold text-gray-500"> <p class="mr-28">Lawal</p> <p class="ml-1">Olalekan</p></div>
-                        <h2 class="text-2xl font-bold mt-5 md:mt-0">About Me</h2>
-                        <p class="mt-3 px-8 text-center">
+                        <h2 class="text-2xl font-bold mt-5 md:mt-0 text-black">About Me</h2>
+                        <p class="mt-3 px-8 text-center text-black">
                             A self-taught <span class="font-semibold">Front-End</span> developer with 1+ years
                             in web and mobile development.
                         </p>
                     </div>
                     <div class="mt-8 space-y-4 w-full px-8">
-                        <div class="flex items-center">
+                        <div class="flex items-center text-black">
                             <div class="">
                                 <svg class="w-[40px] h-[40px] bg-black rounded-full text-white py-1 dark:text-white"
                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -39,7 +39,7 @@
                             </div>
                             <span class="ml-3">+234 816 8807853</span>
                         </div>
-                        <div class="flex items-center">
+                        <div class="flex items-center text-black">
                             <div class="">
                                 <svg class="w-[40px] h-[40px] bg-black rounded-full text-white py-1 dark:text-white"
                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -51,7 +51,7 @@
                             <span class="ml-3 ">Lawalholamilekan@gmail.com</span>
                         </div>
                         
-                        <div class="flex items-center">
+                        <div class="flex items-center text-black">
                             <div class="">
                                 <svg class="w-[40px] h-[40px] bg-black rounded-full text-white py-1 dark:text-white"
                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -116,7 +116,7 @@
                     <div class="flex ml-10 mt-10">
                         <div class="md:w-[300px] w-[200px] bg-gray-900 py-1 text-center text-white">EXPERIENCE</div>
                     </div>
-                    <div class="ml-10 mt-2">
+                    <div class="ml-10 mt-2 text-black">
                         <p class="font-bold">Niflare Tech</p>
                         <p class="font-bold">Osun, Nigeria</p>
                         <p class="font-bold">Janury 2024 - current</p>
@@ -128,16 +128,18 @@
                     <div class="flex mt-4 ml-10">
                         <div class="md:w-[300px] w-[200px] bg-gray-900 text-center py-1 text-white">EDUCATION</div>
                     </div>
+                    <div class="text-black">
                     <p class="mt-2 ml-10 font-bold">Iree Polytechnic, Osun State</p>
                     <p class="ml-10">Bachelor of Science Computer Science</p>
                     <p class="ml-10">2019-2021</p>
                     <p class="mt-2 font-bold ml-10">Agaagunlase Comunity High School</p>
                     <p class="ml-10">WASSCE</p>
                     <p class="ml-10">2005-2011</p>
+                    </div>
                     <div class="flex mt-4 ml-10">
                         <div class="md:w-[300px] w-[200px] bg-gray-900 text-center py-1 text-white">SKILLS SUMMARY</div>
                     </div>
-                    <p class="mt-2 ml-10">Frontend Development 90%</p>
+                    <p class="mt-2 ml-10 text-black">Frontend Development 90%</p>
                     <div class="flex justify-end">
                         <div class="w-24 h-45 md:mt-45 bg-gray-300 rounded-l-full"></div>
                     </div>

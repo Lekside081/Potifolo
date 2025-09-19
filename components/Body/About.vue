@@ -79,7 +79,7 @@
                 </p>
 
                 <p class="mt-4 text-center">Finally, some quick bits about me.</p>
-                <div class="flex space-x-2 mt-4 justify-center -ml-14">
+                <div class="flex space-x-5 mt-4 justify-center -ml-6">
                     <div class="flex space-x-2">
                         <li>H.N.D in Computer Science</li>
                     </div>
@@ -87,8 +87,8 @@
                         <li>Avid learner</li>
                     </div>
                 </div>
-                <div class="flex space-x-14 mt-2 justify-center">
-                    <div class="flex space-x-2">
+                <div class="flex space-x-8 mt-2 justify-center">
+                    <div class="flex space-x-">
                         <li>Full time freelancer</li>
                     </div>
                     <div class="flex space-x-2">

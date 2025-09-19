@@ -19,20 +19,20 @@
                                    </div>
                                 </div>
                                 </div>
-                                <div class="text-2xl text-center md:text-start -ml-10 md:ml-0 font-extrabold">Front-End Engineering
-                                    <div class="font-light text-xl mt-4 -ml-1 md:-ml-0">
-                                        <li>Worked on mobile app using Nuxt.js & Next.js</li>
+                                <div class="text-2xl text-center md:text-start -ml-10 md:ml-0 font-extrabold text-black">Front-End Engineering
+                                    <div class="font-light text-xl mt-4 -ml-1 md:-ml-0 text-black">
+                                        <li class="">Worked on mobile app using Nuxt.js & Next.js</li>
                                     </div>
-                                    <div class="font-light text-xl -ml-10 md:-ml-0">
+                                    <div class="font-light text-xl -ml-10 md:-ml-0 text-black">
                                         <li>Worked on web app, including JavaScript,</li>
                                     </div>
-                                    <div class="font-light text-xl ml-8 hidden md:block">Node, Vue, Nuxt.js, React, Next.js, Tailwindcss and others.</div>
-                                    <div class="block md:hidden font-light text-xl">Node, Vue, Nuxt.js, React, Next.js, Tailwindcss and <br/>others.</div>
+                                    <div class="font-light text-xl ml-8 hidden md:block text-black">Node, Vue, Nuxt.js, React, Next.js, Tailwindcss and others.</div>
+                                    <div class="block md:hidden font-light text-xl text-black">Node, Vue, Nuxt.js, React, Next.js, Tailwindcss and <br/>others.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="basis-1/3 text-center md:text-center">
+                    <div class="basis-1/3 text-center md:text-center text-black">
                         <div>January 2024 - Present</div>
                     </div>
                 </div>

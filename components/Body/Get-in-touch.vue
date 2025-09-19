@@ -3,7 +3,7 @@
         <div id="Contact" class="flex justify-center">
             <div class="basis-30 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Get in touch</div>
         </div>
-        <div class="text-blue-800 md:textblack">
+        <div class="text-blue-800 md:text-white">
         <p class="text-center text-2xl mt-2">What's next? Feel free to reach out to me if you are looking</p>
         <p class="text-center text-2xl">for a developer, have a query, or simply want to connect.</p>
         </div>
