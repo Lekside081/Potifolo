@@ -54,6 +54,7 @@
                 <p>say hello! I promise I don't bite 😉</p>
                 </div>
                 <!--Pone text-->
+                <div class="flex flex-wrap justify-center">
                 <div class="block md:hidden">
                     <p class="mt-4 text-center">I'm a passionate, <span class="underline">self-proclaimed front-end engineer</span>
                     </p>
@@ -98,6 +99,7 @@
 
                 <p class="mt-4 text-center">One last thing, I'm available for freelance work, so feel</p>
                 <p class="text-center">free to reach out and say hello! I promise I don't bite 😉</p>
+                </div>
                 </div>
             </div>
         </div>
