@@ -130,7 +130,7 @@
                     </div>
                     <div class="text-black">
                     <p class="mt-2 ml-10 font-bold">Iree Polytechnic, Osun State</p>
-                    <p class="ml-10">Bachelor of Science Computer Science</p>
+                    <p class="ml-10">A Bachelor of Science in Computer Science</p>
                     <p class="ml-10">2019-2021</p>
                     <p class="mt-2 font-bold ml-10">Agaagunlase Comunity High School</p>
                     <p class="ml-10">WASSCE</p>
