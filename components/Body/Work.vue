@@ -27,7 +27,7 @@
                                 <div class="basis-24 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Node.Js</div>
                                 <div class="basis-40 mt-2 bg-gray-300 rounded-2xl text-center">Styled Components</div>
                             </div>
-                            <div class="mt-8">
+                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
                                 <NuxtLink to="https://donlekside-apkwa99m5-lawal-sodiq-olalekans-projects.vercel.app/">
                                     <div>
                                         <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
@@ -63,7 +63,7 @@
                                 <div class="basis-24 bg-gray-300 rounded-2xl text-center">Node.Js</div>
                                 <div class="basis-40 bg-gray-300 rounded-2xl text-center">Styled Components</div>
                             </div>
-                            <div class="mt-8">
+                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
                                 <NuxtLink to="https://niflare-rixdq3oxy-lawal-sodiq-olalekans-projects.vercel.app/">
                                     <div>
                                         <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
@@ -108,7 +108,7 @@
                                 <div class="basis-24 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Node.Js</div>
                                 <div class="basis-40 mt-2 bg-gray-300 rounded-2xl text-center">Styled Components</div>
                             </div>
-                            <div class="mt-8">
+                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
                                 <NuxtLink to="https://color-guessing-game-v6pr.vercel.app/">
                                     <div>
                                         <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
