@@ -1,131 +1,91 @@
 <template>
-    <div class="py-16">
-        <div id="Work" class="flex justify-center">
-            <div class="basis-18 bg-gray-200 rounded-2xl text-center text-blue-800 md:text-gray-800 font-bold">Work
+    <section id="Work" class="py-24 relative bg-slate-900/30 border-y border-slate-800/50">
+        <UContainer>
+            <div class="mb-16 text-center">
+                <UIcon name="i-heroicons-computer-desktop" class="w-12 h-12 text-teal-400 mb-4 inline-block" />
+                <h2 class="text-4xl md:text-5xl font-bold font-['Outfit'] text-white">Selected <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">Works</span></h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-teal-400 to-cyan-400 mx-auto mt-6 rounded-full"></div>
+                <p class="text-lg text-slate-400 mt-6 max-w-2xl mx-auto font-light">Some of the noteworthy projects I have built.</p>
             </div>
-        </div>
-        <p class="text-center text-2xl mt-2 text-blue-800 md:text-black">Some of the noteworthy projects I have built:
-        </p>
-        <div class="flex flex-col md:flex-row justify-center mt-8 ml-10 md:ml-0">
-            <div class="w-[90%] border-2 border-gray-300 rounded-2xl">
-                <div class="flex flex-col md:flex-row">
-                    <div class="basis-1/2 bg-gray-200 rounded-s-2xl py-10 px-10">
-                        <div>
-                            <img src="/public/imag/Donlekside.PNG">
-                        </div>
-                    </div>
-                    <div class="basis-1/2 rounded-e-2xl">
-                        <div class="ml-14 mt-5">
-                            <h class="font-bold text-2xl">Don-Lekside</h>
-                            <p class="mt-4">A platform for Staking money and increasing dailly</p>
-                            <div class="flex flex-wrap space-x-3 space-y-2 mt-4 text-green-950 font-bold">
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vue</div>
-                                <div class="basis-30 bg-gray-300 rounded-2xl text-center">JavaScript</div>
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vercel</div>
-                                <div class="basis-30 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
 
-                                <div class="basis-24 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Node.Js</div>
-                                <div class="basis-40 mt-2 bg-gray-300 rounded-2xl text-center">Styled Components</div>
-                            </div>
-                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
-                                <NuxtLink to="https://donlekside-apkwa99m5-lawal-sodiq-olalekans-projects.vercel.app/">
-                                    <div>
-                                        <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                            viewBox="0 0 24 24">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778" />
-                                        </svg>
-                                    </div>
-                                </NuxtLink>
-                            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="group flex flex-col bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-teal-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-teal-500/10">
+                    <div class="h-60 w-full bg-slate-800 relative overflow-hidden">
+                        <img src="/imag/Donlekside.PNG" alt="Don-Lekside Project" class="w-full h-full object-cover object-top filter transition-all duration-700 group-hover:scale-105" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-1">
+                        <h3 class="text-2xl font-bold font-['Outfit'] text-white mb-3 group-hover:text-teal-400 transition-colors">Don-Lekside</h3>
+                        <p class="text-slate-400 font-light mb-6 flex-1">A responsive platform for staking and increasing daily yield, featuring a seamless user experience and modern architecture.</p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Vue.js</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Node.js</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Vercel</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <UButton to="https://donlekside-apkwa99m5-lawal-sodiq-olalekans-projects.vercel.app/" target="_blank" color="white" variant="ghost" class="group/btn hover:bg-teal-500/10 hover:text-teal-400 w-full justify-between font-semibold">
+                                View Live Project
+                                <UIcon name="i-heroicons-arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
+                            </UButton>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="flex flex-col md:flex-row justify-center mt-12 ml-10 md:ml-0">
-            <div class="w-[90%] border-2 border-gray-300 rounded-2xl">
-                <div class="flex flex-col md:flex-row">
-                    <div class="basis-1/2 rounded-s-2xl">
-                        <div class="ml-14 mt-5">
-                            <h class="font-bold text-2xl">Niflare.com</h>
-                            <p class="mt-4">A platform for teaching people how to transform your idea to reality</p>
-                            <p class="">Through technologies</p>
-                            <div class="flex flex-wrap space-x-3 space-y-2 mt-4 text-green-900 font-bold">
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vue</div>
-                                <div class="basis-30 bg-gray-300 rounded-2xl text-center">JavaScript</div>
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vercel</div>
-                                <div class="basis-30 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
-
-                                <div class="basis-24 bg-gray-300 rounded-2xl text-center">Node.Js</div>
-                                <div class="basis-40 bg-gray-300 rounded-2xl text-center">Styled Components</div>
-                            </div>
-                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
-                                <NuxtLink to="https://niflare-rixdq3oxy-lawal-sodiq-olalekans-projects.vercel.app/">
-                                    <div>
-                                        <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                            viewBox="0 0 24 24">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778" />
-                                        </svg>
-                                    </div>
-                                </NuxtLink>
-                            </div>
-                        </div>
+                <!-- Project Card 2 -->
+                <div class="group flex flex-col bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-teal-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-teal-500/10">
+                    <div class="h-60 w-full bg-slate-800 relative overflow-hidden">
+                        <img src="/imag/Niflare0.PNG" alt="Niflare Project" class="w-full h-full object-cover object-top filter transition-all duration-700 group-hover:scale-105" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                     </div>
-                    <div class="basis-1/2 bg-gray-200 rounded-e-2xl py-10 px-6">
-                        <div>
-                            <img src="/public/imag/Niflare0.PNG">
+                    <div class="p-8 flex flex-col flex-1">
+                        <h3 class="text-2xl font-bold font-['Outfit'] text-white mb-3 group-hover:text-teal-400 transition-colors">Niflare.com</h3>
+                        <p class="text-slate-400 font-light mb-6 flex-1">An educational platform designed for teaching people how to transform ideas into reality through technology.</p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Vue.js</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">JavaScript</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Tailwind</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <UButton to="https://niflare-rixdq3oxy-lawal-sodiq-olalekans-projects.vercel.app/" target="_blank" color="white" variant="ghost" class="group/btn hover:bg-teal-500/10 hover:text-teal-400 w-full justify-between font-semibold">
+                                View Live Project
+                                <UIcon name="i-heroicons-arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
+                            </UButton>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="flex flex-col md:flex-row justify-center mt-8 ml-10 md:ml-0">
-            <div class="w-[90%] border-2 border-gray-300 rounded-2xl">
-                <div class="flex flex-col md:flex-row">
-                    <div class="basis-1/2 bg-gray-200 rounded-s-2xl py-10 px-10">
-                        <div>
-                            <img src="/public/imag/game-show.PNG">
-                        </div>
+                <!-- Project Card 3 -->
+                <div class="group flex flex-col bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-teal-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-teal-500/10">
+                    <div class="h-60 w-full bg-slate-800 relative overflow-hidden">
+                        <img src="/imag/game-show.PNG" alt="Game Show Project" class="w-full h-full object-cover object-top filter transition-all duration-700 group-hover:scale-105" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                     </div>
-                    <div class="basis-1/2 rounded-e-2xl">
-                        <div class="ml-14 mt-5">
-                            <h class="font-bold text-2xl">Don-Lekside Show Game</h>
-                            <p class="mt-4">Game for guessing color</p>
-                            <div class="flex flex-wrap space-x-3 space-y-2 mt-4 text-green-950 font-bold">
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Ract</div>
-                                <div class="basis-30 bg-gray-300 rounded-2xl text-center">JavaScript</div>
-                                <div class="basis-18 bg-gray-300 rounded-2xl text-center">Vercel</div>
-                                <div class="basis-30 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Tailwindcss</div>
-
-                                <div class="basis-24 mt-2 md:mt-0 bg-gray-300 rounded-2xl text-center">Node.Js</div>
-                                <div class="basis-40 mt-2 bg-gray-300 rounded-2xl text-center">Styled Components</div>
-                            </div>
-                            <div class="mt-4 md:mt-8 mb-3 md:mb-0">
-                                <NuxtLink to="https://color-guessing-game-v6pr.vercel.app/">
-                                    <div>
-                                        <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                            viewBox="0 0 24 24">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778" />
-                                        </svg>
-                                    </div>
-                                </NuxtLink>
-                            </div>
+                    <div class="p-8 flex flex-col flex-1">
+                        <h3 class="text-2xl font-bold font-['Outfit'] text-white mb-3 group-hover:text-teal-400 transition-colors">Color Guessing Game</h3>
+                        <p class="text-slate-400 font-light mb-6 flex-1">An interactive web-based game for guessing colors, demonstrating state management and dynamic UI updates.</p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">React</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">Styled Comps</span>
+                            <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium">JavaScript</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <UButton to="https://color-guessing-game-v6pr.vercel.app/" target="_blank" color="white" variant="ghost" class="group/btn hover:bg-teal-500/10 hover:text-teal-400 w-full justify-between font-semibold">
+                                View Live Project
+                                <UIcon name="i-heroicons-arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
+                            </UButton>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
-            
-    </div>
+        </UContainer>
+    </section>
 </template>

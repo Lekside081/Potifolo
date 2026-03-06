@@ -1,6 +1,5 @@
 <template>
     <div class="overflow-x-hidden">
-        <HeadNavbar/>
        <BodyDon-lekside/> 
        <BodyAbout/>
        <BodySkill/>

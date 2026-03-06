@@ -1,9 +1,9 @@
 <template>
-    <div class="">
-        <!-- <header /> -->
+    <div class="relative flex flex-col min-h-screen">
+        <HeadNavbar />
         
-        <slot />
-        <!-- <footer /> -->
-        <BodyFooter/>
+        <main class="flex-1 pt-24">
+            <slot />
+        </main>
     </div>
 </template>

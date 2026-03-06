@@ -1,14 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      Inter: [300, 400, 500, 600, 700],
+      Outfit: [300, 400, 500, 600, 700, 800],
+    },
+    display: 'swap',
+  },
   app: {
     head: {
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
-          
+
           name: 'description',
           content:
             'Frontend Engineer Portfolio – Showcasing skills in Nuxt.js, Vue.js, Tailwind CSS, and modern web development.',
@@ -41,9 +48,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  vite: { 
-    plugins: [ 
-      tailwindcss(), 
-    ], 
-  }, 
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 })

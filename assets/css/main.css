@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 font-sans antialiased selection:bg-teal-500/30 selection:text-teal-200;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit);
+}

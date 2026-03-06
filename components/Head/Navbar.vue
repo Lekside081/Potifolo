@@ -1,77 +1,35 @@
 <template>
-    <div class="">
-        <!--Destop Nav-->
-        <div class="hidden md:block">
-            <div class="Navbar z-10 flex items-center justify-between bg-gray-50 lg:px-10 py-3">
-                <div class="basis-1/2 flex text-white py-3 text-2xl">
-                    <NuxtLink to="/">
-                        <div class="text-black font-bold text-3xl">
-                            < SS />
-                        </div>
-                    </NuxtLink>
-                </div>
+  <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-slate-950/85 border-b border-slate-800/50 shadow-sm shadow-slate-900/20 py-4">
+    <UContainer class="flex items-center justify-between">
+      
+      <!-- Logo -->
+      <NuxtLink to="/" class="text-3xl font-bold font-['Outfit'] bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+        &lt; SS /&gt;
+      </NuxtLink>
 
-                <div class="basis-1/2 flex flex-col md:flex-row justify-between md:px-4">
-                    <NuxtLink to="#About me">
-                        <p class="text-black">About</p>
-                    </NuxtLink>
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center space-x-10">
+        <NuxtLink to="#About me" class="text-sm font-medium text-slate-300 hover:text-teal-400 transition-colors">About</NuxtLink>
+        <NuxtLink to="#Work" class="text-sm font-medium text-slate-300 hover:text-teal-400 transition-colors">Work</NuxtLink>
+        <NuxtLink to="#Testimonials" class="text-sm font-medium text-slate-300 hover:text-teal-400 transition-colors">Testimonials</NuxtLink>
+        <NuxtLink to="#Contact" class="text-sm font-medium text-slate-300 hover:text-teal-400 transition-colors">Contact</NuxtLink>
+        
+        <UButton to="/Resume" color="teal" variant="solid" class="font-semibold rounded-full px-7 shadow-lg shadow-teal-500/20 hover:shadow-teal-500/40 transition-all">
+          CV
+        </UButton>
+      </nav>
 
+      <!-- Mobile Nav Buttons (CV Only) -->
+      <div class="md:hidden flex items-center">
+        <UButton to="/Resume" color="teal" variant="solid" size="sm" class="font-semibold rounded-full px-5">
+          CV
+        </UButton>
+      </div>
 
-                    <NuxtLink to="#Work">
-                        <div class="text-black">Work</div>
-                    </NuxtLink>
-
-                    <NuxtLink to="#Testimonials">
-                        <div class="text-black">Testimonials</div>
-                    </NuxtLink>
-
-                    <NuxtLink to="#Contact">
-                        <div class="text-black">Contact</div>
-                    </NuxtLink>
-
-                    <NuxtLink to="#learnwithus">
-                        <div class="text-black">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-                            </svg>
-                        </div>
-                    </NuxtLink>
-                    <NuxtLink to="/Resume">
-                        <div>
-                            <button class="bg-black text-white font-bold py-1.5 px-5 rounded-2xl">
-                                CV
-                            </button>
-                        </div>
-                    </NuxtLink>
-                </div>
-            </div>
-        </div>
-        <!--Phone Nav-->
-        <div class="block md:hidden">
-            <div class="Navbar z-10 flex items-center justify-between bg-gray-50 lg:px-10 py-4 px-4">
-                <NuxtLink to="/">
-                    <div class="text-black font-bold text-3xl">
-                        < SS />
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="/Resume">
-                    <div>
-                        <button class="bg-black text-white font-bold py-1.5 px-5 rounded-2xl">
-                            CV
-                        </button>
-                    </div>
-                </NuxtLink>
-            </div>
-        </div>
-    </div>
+    </UContainer>
+  </header>
 </template>
-<style>
-.Navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-</style>
+
+<script setup>
+// Navigation state logic removed as per user request
+</script>
